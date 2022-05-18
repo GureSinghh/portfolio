@@ -1,0 +1,57 @@
+
+.D1{
+    max-width: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+ }
+ 
+ .d1{
+
+     min-height: 4rem;
+     border: 1px solid white;
+     background-color: black;
+     border-radius: 0rem 1rem 1rem 0 ; 
+     box-shadow: 0 0 12px white;
+     width: 1rem;
+     border-left: 0;
+     display: flex;
+     justify-items: center;
+     align-items:center;
+     p{
+         margin: auto auto auto auto;
+         text-align: center;
+         align-self: center;
+         color: rgb(255, 250, 250);
+         font-size: 0rem;
+         font-weight: 400;
+     }
+ }
+ .d1:active{
+    width: 8rem;
+    transition: 0.5s;
+    z-index: 2;
+    p{
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+ }
+ .d1:hover{
+     width: 8rem;
+     transition: 0.5s;
+     z-index: 2;
+     p{
+         font-size: 1.2rem;
+         transition: 0.5s;
+     }
+ }
+ .main-Flex{
+    display: flex;
+    max-width: 100%;   
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+
+   
+}

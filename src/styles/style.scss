@@ -1,0 +1,27 @@
+@import './slidebar';
+@import './main';
+@import './card';
+@import './header';
+@import './MediaQ';
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Kanit:wght@200&display=swap');
+
+.side-btns{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    button{
+        margin: 0.2rem;
+        height: 1rem;
+        width: 1rem;
+        border: 0px solid white;    
+        border-radius: 150%;
+         }
+}
+
+.footer{
+    margin-top: 2%;
+    h6{
+        font-weight: 300;
+        color: rgb(255, 255, 255);
+    }
+}

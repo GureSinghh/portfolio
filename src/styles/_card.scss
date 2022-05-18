@@ -1,0 +1,60 @@
+
+.center-card{
+    border-radius: 1rem;
+    min-height: 100%;
+    width: 90%;
+    max-width: 100rem;
+    background-color: #2B2525;
+    box-shadow: 0 0 1px 1px white,0 0 55px rgb(4, 250, 99) ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+   
+    .text{
+        width: 50%;
+    
+        margin-top: auto;
+        margin-bottom: auto;
+      
+       h1{
+            margin-top: 2%;
+        }
+        button{
+            margin-top: 20%;
+            font-size: 2rem;
+            padding: 1% 2%;
+            border-radius: 0.8rem;
+            background-color: rgba(0,0,0,0);
+            border: 1px solid white;
+            color: white;
+            font-weight: 300;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
+          
+         
+        }
+        button:hover{
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 12px rgb(233, 233, 236);
+            a{
+                color: black;
+            }
+        }
+            
+     }
+    .profile{
+        border-radius: 50%;
+        height: 15rem;
+        width: 15rem;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: white;
+        background-image: url('https://imgs.search.brave.com/E1IQX9vJAjNFbtrpqGiP1BviKcAfPUmnRe7znmAQ9eI/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/TkxQbENCbUttUDdJ/Sk1Wc1U4dHpnSGFF/OCZwaWQ9QXBp');
+         background-repeat: no-repeat;
+         background-size: cover;        
+    }
+}

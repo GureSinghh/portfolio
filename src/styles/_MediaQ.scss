@@ -1,0 +1,68 @@
+@media screen and (max-width:930px) {
+    
+    .center-card{
+        width: 100%;
+        border-radius: 0 0;
+        box-shadow: 0 0 52px rgb(54, 255, 137);
+        position: absolute;
+        top: 10%;
+        height: 80vh;
+        z-index: 1;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        .text{
+            margin-top: 8%;
+            width: 100%;
+            
+            h1{
+                
+                max-width: 100%;
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 00.8rem;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            button{
+                font-size: 18px;
+            }
+        }
+        div{
+            margin-top: 15%;
+        }
+       
+    }
+    .side-btns{
+        position: absolute;
+        z-index: 2;
+        right: 0.5%;
+        opacity: 0.8;
+    }
+    .D1{
+        top:13%;
+        z-index: 2;
+        position: fixed;
+        height: 50%;
+       
+    }
+    .d1:active{
+        width: 8rem;
+        transition: 0.5s;
+        z-index: 2;
+        p{
+            font-size: 1.2rem;
+            transition: 0.5s;
+        }
+     }
+    .d1{
+        
+        margin: 0%;
+        position: relative;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    .footer{
+      display: none;
+    }
+}
