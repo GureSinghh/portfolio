@@ -123,12 +123,17 @@
 
 .center-card .text {
   width: 50%;
+  font-family: monospace;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .center-card .text h1 {
   margin-top: 2%;
+}
+
+.center-card .text p {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .center-card .text button {
@@ -174,7 +179,7 @@
   text-align: center;
   color: white;
   margin-bottom: 1.5%;
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier;
   letter-spacing: 1px;
   -webkit-animation: logo 2s;
           animation: logo 2s;

@@ -14,12 +14,15 @@
    
     .text{
         width: 50%;
-    
+        font-family:  monospace;
         margin-top: auto;
         margin-bottom: auto;
       
        h1{
             margin-top: 2%;
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
         }
         button{
             margin-top: 20%;
